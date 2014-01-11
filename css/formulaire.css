@@ -1,0 +1,24 @@
+/**
+ * Author: @urel$76;
+ * Version: 1.0.0;
+ * Date of creation: August 2013;
+ * Aim: 
+ *  -> Style sheet for the 'Options' page;
+ *  -> Style sheet made for 'Google Chrome' browser; 
+ */
+
+th 
+{
+  background-color: #C8C8C8;
+  font-weight: normal;
+}
+
+td, th 
+{
+  text-align: center;
+}
+
+p 
+{
+  margin-top: 40px; 
+}

@@ -1,0 +1,35 @@
+/*
+ Author: @urel$76;
+ Version: 1.0.0;
+ Date of creation: August 2013;
+ Aim:
+    -> JSON file that defines how the module running
+*/
+
+{
+  "name": "FFF designations",
+  "manifest_version": 2,
+  "description": "Permet aux arbitres, observateurs, délégués de la FFF de voir leur(s) désignation(s) en un clic.",
+  "version": "1.0.0",
+  "icons": { "16": "images/icon.png",
+             "48": "images/icon48.png",
+             "128": "images/icon128.png" 
+  },
+  "options_page": "html/preferences.html",
+  "permissions": [
+    "tabs",
+    "http://*/",
+    "storage",
+    "<all_urls>"
+  ],
+  "author": [ {
+  "name": "@urel$76",
+  "email": "lehavrai76@gmail.com"
+  } ],
+  "content_scripts": [ {"js": [ "html/designations.html" ], "matches": [ "http://*/" ]} ],
+  "browser_action": {
+    "default_icon": "images/icon.png",
+    "default_title": "Afficher mes désignations",
+    "default_popup": "html/designations.html"
+  }
+}

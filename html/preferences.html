@@ -1,0 +1,41 @@
+<!-- 
+ Author: @urel$76;
+ Version: 1.0.0;
+ Date of creation: August 2013;
+ Aim: 
+  -> HTML page shown when user clic on 'Options';
+  -> HTML page for save your referee login and password;  
+-->
+
+<html>
+    <head>
+        <script src="../js/preferences.js"></script>
+        <link rel="stylesheet" type="text/css" href="../css/formulaire.css">
+        <meta http-equiv='Content-Type' content='text/html; charset=utf-8'>
+        <title>FFF désignation</title>
+    </head>
+    <body>
+        <form id='informations'>
+        <table>
+            <tr>
+                <th colspan=2>Formulaire vous permettant d'enregistrer vos coordonnées de connexion afin afficher vos désignations</th>
+            </tr>
+            <tr>
+    	        <td>Numéro de licence :</td>
+                <td><input id="numerolicence" type="text" name="numerolicence" title="Saisissez votre numéro de licence (ex: 2684235755)"></td>
+            </tr>
+            <tr>
+                <td>Mot de passe :</td>
+                <td><input id="motdepasse" type="text" name="motdepasse" title="Saisissez votre mot de passe"></td>
+            </tr>
+            <tr>
+                <td colspan=2><input id='click-me' type="button" value="Enregistrer mes informations" title="Enregistrer mes informations"></td>
+            </tr>
+        </table>
+        </form>
+
+        <p>
+            DESCRIPTION : Vos coordonnées seront enregistrées dans l'historique (cookies) de votre naviguateur web, par conséquent si a un moment vous n'arrivez plus à vous connecter, resaisissez vos coordonnées dans ce formulaire.
+        </p>
+    </body>
+</html> 
